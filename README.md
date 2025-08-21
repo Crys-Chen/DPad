@@ -495,8 +495,7 @@ bash ./demo/demo.sh
 
 ## 📚 Future Works
 
-- [x] Coming soon
-- [ ] 
+- [x] **Integrate Suffix Dropout into Training:** Future work can extend to incorporate the distance-decay dropout strategy directly into the Supervised Fine-Tuning (SFT) by modifying the training objective (see paper). This would allow a consistent match in posterior between training and inference, while reducing scratchpad inefficiency even better.
 
 ## 🙏 Acknowledgements
 This codebase is directly inherited from [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM) and inspired by [dLLM-Cache](https://github.com/maomaocun/dLLM-cache), with the foundations laid by the original [**LLaDA**](https://ml-gsai.github.io/LLaDA-demo/) and [**Dream**](https://hkunlp.github.io/blog/2025/dream/) models. We thank their authors for making their work public. We are also grateful for the powerful open-source tools from HuggingFace team that made this research possible.
