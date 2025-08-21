@@ -38,6 +38,7 @@ This repository provides the code to reproduce our evaluation results.
 <strong>Demo for LLaDA-1.5 on GSM8K (50 samples) (1024, 1-shot)</strong>
 
 https://github.com/user-attachments/assets/d2bce8f2-310e-4f14-8b4e-cbef8c962741
+
 (Latency: Inference Time for 50 samples. F: Flexible-Match Accuracy, S: Strict-Match Accuracy)
 
 ## 🔥 News!
