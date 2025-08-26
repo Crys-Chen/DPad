@@ -44,6 +44,19 @@ https://github.com/user-attachments/assets/d2bce8f2-310e-4f14-8b4e-cbef8c962741
 ## 🔥 News!
 * Aug 19, 2025: We've released our paper on Arxiv!
 
+* > ### 📢 Call for Collaboration: Training the Next Generation of Efficient dLLMs
+  >
+  > DPad interpolates between semi-autoregressive and block diffusion models. Our next step is to explore this unique position further, aiming to create a model that achieves the **training efficiency** of Block Diffusion while preserving the crucial **long-term planning capabilities** of semi-autoregressive methods. This research could lead to a new class of models that are both powerful and scalable.
+  >
+  >  Advancing this research requires significant computational resources. We are actively seeking academic or industry partners with available GPU capacity who are interested in pioneering more efficient language models. If you'd like to collaborate, please reach out to us! 
+  >
+  > email:
+  >
+  > - xhchen21@m.fudan.edu.cn
+  > - cong.guo@duke.edu
+
+  
+
 ## Contents
 - [🤔 How It Works](#-how-it-works)
 - [✨ Key Features & Modifications](#-key-features--modifications)
@@ -497,7 +510,9 @@ bash ./demo/demo.sh
 
 ## 📚 Future Works
 
-- [x] **Integrate Suffix Dropout into Training:** Future work can extend to incorporate the distance-decay dropout strategy directly into the Supervised Fine-Tuning (SFT) by modifying the training objective (see paper). This would allow a consistent match in posterior between training and inference, while reducing scratchpad inefficiency even better.
+- [ ] **Integrate Suffix Dropout into Training:** Future work can extend to incorporate the distance-decay dropout strategy directly into the Supervised Fine-Tuning (SFT) by modifying the training objective (see paper). This would allow a consistent match in posterior between training and inference, while reducing scratchpad inefficiency even better. We are currently in short of GPUs. If you have , Please feel free to contact us to cooperate!
+- [ ] Our next step is to integrate the distance-decay dropout strategy directly into the Supervised Fine-Tuning (SFT) process. By modifying the training objective, we can mitigate the training-inference distribution gap[cite: 706]. This approach will align the model's training with our efficient inference method, leading to even greater performance and helping the model avoid wasting capacity on redundant information[cite: 715, 717]. 
+- [ ] **Call for Collaboration:** Advancing this research requires significant computational resources. We are actively seeking academic or industry partners with available GPU capacity who are interested in this work. If you would like to collaborate on developing the next generation of highly efficient diffusion models, please contact us to explore this opportunity.
 
 ## 🙏 Acknowledgements
 This codebase is directly inherited from [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM) and inspired by [dLLM-Cache](https://github.com/maomaocun/dLLM-cache), with the foundations laid by the original [**LLaDA**](https://ml-gsai.github.io/LLaDA-demo/) and [**Dream**](https://hkunlp.github.io/blog/2025/dream/) models. We thank their authors for making their work public. We are also grateful for the powerful open-source tools from HuggingFace team that made this research possible.

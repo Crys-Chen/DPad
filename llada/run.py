@@ -61,7 +61,7 @@ if __name__ == "__main__":
         cache = ''
 
     if args.e is True:
-        early = '_e_'
+        early = 'e_'
     else:
         early = ''
  

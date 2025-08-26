@@ -20,6 +20,7 @@
 # This file has been modified by Xinhua Chen, Duke CEI Center. 
 # Changes include:
 # 1. Integrated Diffusion Scratchpad (DPad) for efficient inference.
+# 2. Fix the token counting bug for HumanEval in Fast-dLLM
 
 
 '''
