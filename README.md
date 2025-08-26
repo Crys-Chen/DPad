@@ -2,6 +2,18 @@
     <img src="assets/logo.png" width="300">
 </p>
 
+> [!NOTE]
+>
+> ### 📢 Call for Collaboration: Training the Next Generation of Efficient dLLMs
+>
+> DPad interpolates between semi-autoregressive and block diffusion models. Our next step is to explore this unique position further, aiming to create a model that achieves the **training efficiency** of Block Diffusion while preserving the crucial **long-term planning capabilities** of semi-autoregressive methods. This research could lead to a new class of models that are both powerful and scalable.
+>
+> Advancing this research requires significant computational resources. We are actively seeking academic or industry partners with available GPU capacity who are interested in pioneering more efficient language models. If you'd like to collaborate, please reach out to us!
+>
+> **Email:**
+>
+> - xhchen21@m.fudan.edu.cn
+> - cong.guo@duke.edu
 
 
 ## DPad: Efficient Diffusion Language Models with Suffix Dropout
@@ -43,19 +55,6 @@ https://github.com/user-attachments/assets/d2bce8f2-310e-4f14-8b4e-cbef8c962741
 
 ## 🔥 News!
 * Aug 19, 2025: We've released our paper on Arxiv!
-
-> [!NOTE]
->
-> ### 📢 Call for Collaboration: Training the Next Generation of Efficient dLLMs
->
-> DPad interpolates between semi-autoregressive and block diffusion models. Our next step is to explore this unique position further, aiming to create a model that achieves the **training efficiency** of Block Diffusion while preserving the crucial **long-term planning capabilities** of semi-autoregressive methods. This research could lead to a new class of models that are both powerful and scalable.
->
-> Advancing this research requires significant computational resources. We are actively seeking academic or industry partners with available GPU capacity who are interested in pioneering more efficient language models. If you'd like to collaborate, please reach out to us!
->
-> **Email:**
->
-> - xhchen21@m.fudan.edu.cn
-> - cong.guo@duke.edu
 
 
 ## Contents
