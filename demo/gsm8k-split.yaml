@@ -4,9 +4,9 @@ task: gsm8k-split
 dataset_path: arrow
 dataset_kwargs:
   data_files:
-    train: "[your repo path]/dataset/gsm8k-50.arrow"
-    validation: "[your repo path]/dataset/gsm8k-50.arrow"
-    test: "[your repo path]/gsm8k-50.arrow"
+    train: "[your repo path]/demo/gsm8k-50.arrow"
+    validation: "[your repo path]/demo/gsm8k-50.arrow"
+    test: "[your repo path]/demo/gsm8k-50.arrow"
 dataset_name: main
 output_type: generate_until
 training_split: train
