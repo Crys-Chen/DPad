@@ -437,9 +437,9 @@ cd llada
 ```
 
 ```bash
-bash ./scirpts/main_instruct.sh
-bash ./scirpts/main_1.5.sh
-bash ./scirpts/long_seq.sh
+bash ./scripts/main_instruct.sh
+bash ./scripts/main_1.5.sh
+bash ./scripts/long_seq.sh
 ```
 
 Results will be saved in the `llada/output`.
@@ -451,9 +451,9 @@ cd dream
 ```
 
 ```bash
-bash ./scirpts/main_base.sh
+bash ./scripts/main_base.sh
 # Dream-Instruct is coming soon
-bash ./scirpts/long_seq.sh
+bash ./scripts/long_seq.sh
 ```
 
 Results will be saved in the `dream/output`.
