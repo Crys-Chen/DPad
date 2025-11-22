@@ -37,3 +37,4 @@ parser.add_argument("-c", "--use_cache", dest='c', help='Use cache', action='sto
 parser.add_argument("-dc", "--dual_cache", dest='dc', help='Dual cache', action='store_true')
 parser.add_argument("-re", "--from_scratch", dest='re', help='From scratch', action='store_true')
 parser.add_argument("-e", "--early_termination", dest='e', help='From scratch', action='store_true')
+parser.add_argument("-p", "--main_process_port", type=int, default=None, help="Main process port for distributed training (default: None, uses accelerate default or 0 for auto)")

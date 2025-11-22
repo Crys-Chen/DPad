@@ -83,7 +83,10 @@ if __name__ == "__main__":
     # --- [The Elegant Way] Build and execute the command using subprocess ---
 
     # 1. Build the command as a list of arguments for safety and clarity.
-    base_cmd = ['accelerate', 'launch', 'eval.py']
+    base_cmd = ['accelerate', 'launch']
+    if args.main_process_port is not None:
+        base_cmd.extend(['--main_process_port', str(args.main_process_port)])
+    base_cmd.append('eval.py')
 
     task_args = ['--tasks', args.task]
     if args.task == 'humaneval':
