@@ -232,6 +232,7 @@ def generate_with_prefix_cache(model, prompt, steps=128, gen_length=128, block_l
         mask_indices = (x_pruned == mask_id)
         mask_indices[:, block_end:] = 0
 
+        i = 0
         x0, transfer_index = get_transfer_index(logits, 
                                                 temperature, 
                                                 remasking, 
@@ -333,6 +334,7 @@ def generate_with_dual_cache(model, prompt, steps=128, gen_length=128, block_len
         mask_indices = (x_pruned == mask_id)
         mask_indices[:, block_end:] = 0
 
+        i = 0
         x0, transfer_index = get_transfer_index(logits, temperature, remasking, mask_indices, x_pruned, num_transfer_tokens[:, i] if threshold is None else None, threshold=threshold)
         x_pruned[transfer_index] = x0[transfer_index]
 
