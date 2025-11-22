@@ -11,7 +11,7 @@ torch==2.7.1
 datasets
 tqdm
 zeno_client
-peft  
+peft==0.17.0
 numpy  
 torchmetrics
 deepspeed
